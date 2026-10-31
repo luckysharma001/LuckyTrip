@@ -1,0 +1,503 @@
+{
+  "users": [
+    {
+      "id": "usr_luckytrip_demo",
+      "name": "Lucky Sharma",
+      "email": "luckysharmadefence001@gmail.com",
+      "phone": "+91 98765 43210",
+      "role": "user",
+      "isPremium": true,
+      "premiumUntil": "2027-10-31T00:00:00.000Z",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
+      "createdAt": "2026-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "usr_admin_portal",
+      "name": "LuckyTrip Operations Admin",
+      "email": "admin@luckytrip.internal",
+      "phone": "+91 99999 00000",
+      "role": "admin",
+      "isPremium": true,
+      "premiumUntil": "2030-01-01T00:00:00.000Z",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "savedTravellers": [
+    {
+      "id": "trav_1",
+      "userId": "usr_luckytrip_demo",
+      "fullName": "Lucky Sharma",
+      "age": 28,
+      "gender": "male",
+      "berthPreference": "Side Lower",
+      "idType": "Aadhaar / Gov ID",
+      "idNumber": "•••• •••• 9821"
+    },
+    {
+      "id": "trav_2",
+      "userId": "usr_luckytrip_demo",
+      "fullName": "Priya Sharma",
+      "age": 26,
+      "gender": "female",
+      "berthPreference": "Lower",
+      "idType": "Passport",
+      "idNumber": "Z••••••8"
+    },
+    {
+      "id": "trav_3",
+      "userId": "usr_luckytrip_demo",
+      "fullName": "Ramesh Sharma",
+      "age": 58,
+      "gender": "male",
+      "berthPreference": "Lower (Senior Citizen)",
+      "idType": "Driving Licence",
+      "idNumber": "DL••••••12"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bkg_tr_1793453276311",
+      "referenceNumber": "DEMO-TR-5924",
+      "userId": "usr_luckytrip_demo",
+      "bookingType": "train",
+      "title": "New Delhi to Varanasi — Vande Bharat Express",
+      "origin": "NDLS",
+      "destination": "BSB",
+      "journeyDate": "2026-11-15",
+      "serviceNumber": "22436",
+      "serviceName": "Vande Bharat Express",
+      "passengers": [
+        {
+          "name": "Lucky Sharma",
+          "age": 28,
+          "gender": "male",
+          "seatNumber": "44",
+          "coachNumber": "C2"
+        }
+      ],
+      "pricing": {
+        "baseFare": 1750,
+        "taxes": 88,
+        "convenienceFee": 0,
+        "discount": 100,
+        "totalAmount": 1738
+      },
+      "status": "CANCELLED",
+      "paymentStatus": "REFUNDED",
+      "paymentMethod": "UPI (Razorpay Sandbox)",
+      "paymentId": "DEMO-PAY-276311",
+      "createdAt": "2026-10-31T13:27:56.311Z",
+      "isDemo": true,
+      "cancellationDate": "2026-10-31T13:27:56.317Z",
+      "cancellationReason": "Plan postponed",
+      "cancellationFee": 180,
+      "refundAmount": 1558
+    },
+    {
+      "id": "bkg_tr_1793453250443",
+      "referenceNumber": "DEMO-TR-1722",
+      "userId": "usr_luckytrip_demo",
+      "bookingType": "train",
+      "title": "New Delhi to Varanasi — Vande Bharat Express",
+      "origin": "NDLS",
+      "destination": "BSB",
+      "journeyDate": "2026-11-15",
+      "serviceNumber": "22436",
+      "serviceName": "Vande Bharat Express",
+      "passengers": [
+        {
+          "name": "Lucky Sharma",
+          "age": 28,
+          "gender": "male",
+          "seatNumber": "44",
+          "coachNumber": "C2"
+        }
+      ],
+      "pricing": {
+        "baseFare": 1750,
+        "taxes": 88,
+        "convenienceFee": 0,
+        "discount": 100,
+        "totalAmount": 1738
+      },
+      "status": "CANCELLED",
+      "paymentStatus": "REFUNDED",
+      "paymentMethod": "UPI (Razorpay Sandbox)",
+      "paymentId": "DEMO-PAY-250443",
+      "createdAt": "2026-10-31T13:27:30.443Z",
+      "isDemo": true,
+      "cancellationDate": "2026-10-31T13:27:30.450Z",
+      "cancellationReason": "Plan postponed",
+      "cancellationFee": 180,
+      "refundAmount": 1558
+    },
+    {
+      "id": "bkg_tr_9912",
+      "referenceNumber": "DEMO-TR-9912",
+      "userId": "usr_luckytrip_demo",
+      "bookingType": "train",
+      "title": "New Delhi to Mumbai Central — Rajdhani Express",
+      "origin": "New Delhi (NDLS)",
+      "destination": "Mumbai Central (BCT)",
+      "journeyDate": "2026-11-08",
+      "serviceNumber": "12952",
+      "serviceName": "Mumbai Central Tejas Rajdhani Express",
+      "passengers": [
+        {
+          "name": "Lucky Sharma",
+          "age": 28,
+          "gender": "male",
+          "berthPreference": "Side Lower",
+          "coachNumber": "B4",
+          "seatNumber": "29",
+          "cabinClass": "3A"
+        }
+      ],
+      "pricing": {
+        "baseFare": 2280,
+        "taxes": 114,
+        "convenienceFee": 0,
+        "discount": 200,
+        "totalAmount": 2194
+      },
+      "status": "CONFIRMED",
+      "paymentStatus": "PAID",
+      "paymentMethod": "UPI (GPay / PhonePe)",
+      "paymentId": "DEMO-PAY-TXN-8812",
+      "createdAt": "2026-10-25T14:30:00.000Z",
+      "isDemo": true
+    },
+    {
+      "id": "bkg_fl_4410",
+      "referenceNumber": "DEMO-FL-4410",
+      "userId": "usr_luckytrip_demo",
+      "bookingType": "flight",
+      "title": "Delhi (DEL) to Goa (GOI) — IndiGo 6E-204",
+      "origin": "Delhi (DEL - Indira Gandhi T3)",
+      "destination": "Goa (GOI - Dabolim Intl)",
+      "journeyDate": "2026-11-18",
+      "serviceNumber": "6E-204",
+      "serviceName": "IndiGo Airlines",
+      "passengers": [
+        {
+          "name": "Lucky Sharma",
+          "age": 28,
+          "gender": "male",
+          "seatNumber": "12F (Window)",
+          "cabinClass": "Economy Saver"
+        },
+        {
+          "name": "Priya Sharma",
+          "age": 26,
+          "gender": "female",
+          "seatNumber": "12E (Middle)",
+          "cabinClass": "Economy Saver"
+        }
+      ],
+      "pricing": {
+        "baseFare": 8400,
+        "taxes": 960,
+        "convenienceFee": 0,
+        "discount": 500,
+        "totalAmount": 8860
+      },
+      "status": "CONFIRMED",
+      "paymentStatus": "PAID",
+      "paymentMethod": "HDFC Credit Card (•••• 4012)",
+      "paymentId": "DEMO-PAY-TXN-9341",
+      "createdAt": "2026-10-28T09:15:00.000Z",
+      "isDemo": true
+    },
+    {
+      "id": "bkg_ht_2201",
+      "referenceNumber": "DEMO-HT-2201",
+      "userId": "usr_luckytrip_demo",
+      "bookingType": "hotel",
+      "title": "The Leela Palace Bengaluru",
+      "origin": "Bengaluru, Karnataka",
+      "destination": "HAL Old Airport Road",
+      "journeyDate": "2026-10-02",
+      "serviceName": "The Leela Palace Luxury Resort",
+      "roomDetails": {
+        "hotelName": "The Leela Palace Bengaluru",
+        "roomType": "Royal Premier Garden View Room",
+        "nights": 2,
+        "guests": 2,
+        "checkIn": "2026-10-02",
+        "checkOut": "2026-10-04",
+        "address": "23 HAL Old Airport Rd, HAL 2nd Stage, Kodihalli, Bengaluru"
+      },
+      "passengers": [
+        {
+          "name": "Lucky Sharma",
+          "age": 28,
+          "gender": "male"
+        },
+        {
+          "name": "Priya Sharma",
+          "age": 26,
+          "gender": "female"
+        }
+      ],
+      "pricing": {
+        "baseFare": 24000,
+        "taxes": 4320,
+        "convenienceFee": 0,
+        "discount": 1500,
+        "totalAmount": 26820
+      },
+      "status": "COMPLETED",
+      "paymentStatus": "PAID",
+      "paymentMethod": "Net Banking (SBI)",
+      "paymentId": "DEMO-PAY-TXN-1102",
+      "createdAt": "2026-09-20T11:45:00.000Z",
+      "isDemo": true
+    },
+    {
+      "id": "bkg_mt_7719",
+      "referenceNumber": "DEMO-MT-7719",
+      "userId": "usr_luckytrip_demo",
+      "bookingType": "metro",
+      "title": "Delhi Metro — Rajiv Chowk to Botanical Garden",
+      "origin": "Rajiv Chowk (Blue Line)",
+      "destination": "Botanical Garden (Magenta Line)",
+      "journeyDate": "2026-10-14",
+      "serviceName": "Delhi Metro Rail Corporation (DMRC)",
+      "passengers": [
+        {
+          "name": "Lucky Sharma",
+          "age": 28,
+          "gender": "male"
+        }
+      ],
+      "metroDetails": {
+        "city": "Delhi NCR",
+        "fromStation": "Rajiv Chowk",
+        "toStation": "Botanical Garden",
+        "interchanges": [
+          "Mandi House (Blue Line Interchange)"
+        ],
+        "tokenCount": 1,
+        "qrCodeString": "DMRC-QR-88319-DEMO-VAL",
+        "validityMinutes": 180
+      },
+      "pricing": {
+        "baseFare": 40,
+        "taxes": 0,
+        "convenienceFee": 0,
+        "discount": 0,
+        "totalAmount": 40
+      },
+      "status": "CANCELLED",
+      "paymentStatus": "REFUNDED",
+      "paymentMethod": "UPI (Paytm)",
+      "paymentId": "DEMO-PAY-TXN-3342",
+      "cancellationDate": "2026-10-14T12:00:00.000Z",
+      "cancellationReason": "Trip rescheduled by traveller",
+      "refundAmount": 40,
+      "cancellationFee": 0,
+      "createdAt": "2026-10-14T11:30:00.000Z",
+      "isDemo": true
+    }
+  ],
+  "refunds": [
+    {
+      "id": "ref_1793453276317",
+      "bookingId": "bkg_tr_1793453276311",
+      "bookingRef": "DEMO-TR-5924",
+      "userId": "usr_luckytrip_demo",
+      "requestedAmount": 1738,
+      "cancellationCharge": 180,
+      "netRefund": 1558,
+      "refundMethod": "Original UPI (Razorpay Sandbox)",
+      "status": "REFUND_COMPLETED",
+      "initiatedAt": "2026-10-31T13:27:56.317Z",
+      "completedAt": "2026-10-31T13:27:56.317Z",
+      "gatewayRefundId": "DEMO-RFND-TXN-12609",
+      "isDemo": true
+    },
+    {
+      "id": "ref_1793453250450",
+      "bookingId": "bkg_tr_1793453250443",
+      "bookingRef": "DEMO-TR-1722",
+      "userId": "usr_luckytrip_demo",
+      "requestedAmount": 1738,
+      "cancellationCharge": 180,
+      "netRefund": 1558,
+      "refundMethod": "Original UPI (Razorpay Sandbox)",
+      "status": "REFUND_COMPLETED",
+      "initiatedAt": "2026-10-31T13:27:30.450Z",
+      "completedAt": "2026-10-31T13:27:30.450Z",
+      "gatewayRefundId": "DEMO-RFND-TXN-43373",
+      "isDemo": true
+    },
+    {
+      "id": "ref_9921",
+      "bookingId": "bkg_mt_7719",
+      "bookingRef": "DEMO-MT-7719",
+      "userId": "usr_luckytrip_demo",
+      "requestedAmount": 40,
+      "cancellationCharge": 0,
+      "netRefund": 40,
+      "refundMethod": "Original UPI Account",
+      "status": "REFUND_COMPLETED",
+      "initiatedAt": "2026-10-14T12:05:00.000Z",
+      "completedAt": "2026-10-14T12:08:00.000Z",
+      "gatewayRefundId": "DEMO-RFND-UPI-55109",
+      "isDemo": true
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "tkt_801",
+      "ticketNumber": "LT-TKT-1042",
+      "userId": "usr_luckytrip_demo",
+      "userName": "Lucky Sharma",
+      "userEmail": "luckysharmadefence001@gmail.com",
+      "category": "Train",
+      "subject": "Inquiry regarding meal preference on Mumbai Rajdhani",
+      "priority": "normal",
+      "status": "RESOLVED",
+      "createdAt": "2026-10-26T10:15:00.000Z",
+      "updatedAt": "2026-10-26T11:40:00.000Z",
+      "messages": [
+        {
+          "id": "msg_1",
+          "sender": "user",
+          "senderName": "Lucky Sharma",
+          "message": "Hi LuckyTrip team, I selected vegetarian meal for my Rajdhani Express booking DEMO-TR-9912. Can I confirm if evening snacks are included?",
+          "timestamp": "2026-10-26T10:15:00.000Z"
+        },
+        {
+          "id": "msg_2",
+          "sender": "support",
+          "senderName": "Rahul (LuckyTrip Support)",
+          "message": "Hello Lucky! Yes, Rajdhani Express 12952 includes full catering: evening tea & snacks, dinner, and morning breakfast served right to your berth B4-29. Safe travels!",
+          "timestamp": "2026-10-26T11:40:00.000Z"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1793453276317",
+      "userId": "usr_luckytrip_demo",
+      "title": "Refund Processed ₹1558 ✅",
+      "message": "Cancellation for DEMO-TR-5924 processed. Refund of ₹1558 sent to Original UPI (Razorpay Sandbox).",
+      "type": "refund",
+      "read": false,
+      "createdAt": "2026-10-31T13:27:56.317Z",
+      "actionUrl": "/refunds"
+    },
+    {
+      "id": "notif_1793453276311",
+      "userId": "usr_luckytrip_demo",
+      "title": "Booking Confirmed: DEMO-TR-5924 🎉",
+      "message": "Your TRAIN journey for New Delhi to Varanasi — Vande Bharat Express on 2026-11-15 is successfully confirmed.",
+      "type": "booking",
+      "read": false,
+      "createdAt": "2026-10-31T13:27:56.311Z",
+      "actionUrl": "/trips/bkg_tr_1793453276311"
+    },
+    {
+      "id": "notif_1793453250450",
+      "userId": "usr_luckytrip_demo",
+      "title": "Refund Processed ₹1558 ✅",
+      "message": "Cancellation for DEMO-TR-1722 processed. Refund of ₹1558 sent to Original UPI (Razorpay Sandbox).",
+      "type": "refund",
+      "read": false,
+      "createdAt": "2026-10-31T13:27:30.450Z",
+      "actionUrl": "/refunds"
+    },
+    {
+      "id": "notif_1793453250443",
+      "userId": "usr_luckytrip_demo",
+      "title": "Booking Confirmed: DEMO-TR-1722 🎉",
+      "message": "Your TRAIN journey for New Delhi to Varanasi — Vande Bharat Express on 2026-11-15 is successfully confirmed.",
+      "type": "booking",
+      "read": false,
+      "createdAt": "2026-10-31T13:27:30.443Z",
+      "actionUrl": "/trips/bkg_tr_1793453250443"
+    },
+    {
+      "id": "notif_1",
+      "userId": "usr_luckytrip_demo",
+      "title": "Train Journey in 8 Days 🚆",
+      "message": "Your Mumbai Central Rajdhani (12952) journey from NDLS is confirmed. Coach B4, Berth 29.",
+      "type": "journey",
+      "read": false,
+      "createdAt": "2026-10-31T06:00:00.000Z",
+      "actionUrl": "/trips"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_luckytrip_demo",
+      "title": "Refund Successfully Credited ₹40 ✅",
+      "message": "Refund for cancelled Metro journey DEMO-MT-7719 was credited to your UPI handle.",
+      "type": "refund",
+      "read": true,
+      "createdAt": "2026-10-14T12:08:00.000Z",
+      "actionUrl": "/refunds"
+    },
+    {
+      "id": "notif_3",
+      "userId": "usr_luckytrip_demo",
+      "title": "LuckyTrip Premium Active ⭐",
+      "message": "Enjoy ₹0 convenience fees on all trains, flights, and hotels plus priority support.",
+      "type": "promo",
+      "read": true,
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "actionUrl": "/premium"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "LOG-1793453276317-781",
+      "action": "BOOKING_CANCELLED",
+      "details": "Booking DEMO-TR-5924 cancelled. Refund of ₹1558 issued.",
+      "userId": "usr_luckytrip_demo",
+      "timestamp": "2026-10-31T13:27:56.317Z"
+    },
+    {
+      "id": "LOG-1793453276311-602",
+      "action": "BOOKING_CREATED",
+      "details": "Booking DEMO-TR-5924 created by luckysharmadefence001@gmail.com (Amount: ₹1738)",
+      "userId": "usr_luckytrip_demo",
+      "timestamp": "2026-10-31T13:27:56.311Z"
+    },
+    {
+      "id": "LOG-1793453276278-543",
+      "action": "OTP_REQUESTED",
+      "details": "OTP requested for luckysharmadefence001@gmail.com",
+      "timestamp": "2026-10-31T13:27:56.278Z"
+    },
+    {
+      "id": "LOG-1793453250450-307",
+      "action": "BOOKING_CANCELLED",
+      "details": "Booking DEMO-TR-1722 cancelled. Refund of ₹1558 issued.",
+      "userId": "usr_luckytrip_demo",
+      "timestamp": "2026-10-31T13:27:30.450Z"
+    },
+    {
+      "id": "LOG-1793453250443-70",
+      "action": "BOOKING_CREATED",
+      "details": "Booking DEMO-TR-1722 created by luckysharmadefence001@gmail.com (Amount: ₹1738)",
+      "userId": "usr_luckytrip_demo",
+      "timestamp": "2026-10-31T13:27:30.443Z"
+    },
+    {
+      "id": "LOG-1793453250398-413",
+      "action": "OTP_REQUESTED",
+      "details": "OTP requested for luckysharmadefence001@gmail.com",
+      "timestamp": "2026-10-31T13:27:30.398Z"
+    },
+    {
+      "id": "LOG-1793452543726-17",
+      "action": "DATABASE_INIT",
+      "details": "LuckyTrip database initialized with demo records and verified user profile",
+      "timestamp": "2026-10-31T13:15:43.726Z"
+    }
+  ],
+  "appMode": "DEMO"
+}

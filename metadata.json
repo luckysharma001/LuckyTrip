@@ -1,0 +1,8 @@
+{
+  "name": "LuckyTrip",
+  "description": "One App. Every Journey. Unified multi-modal travel booking platform for trains, flights, hotels, and metro with instant search, sandbox payments, refund tracking, and trip management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
